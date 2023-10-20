@@ -7,3 +7,43 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+/* Backgound to header */
+header{
+    background-color: lightskyblue;
+    height: 80px;
+}
+/* container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.col-25{
+    background-color: rgb(255, 217, 0);
+    width: 25%;
+    height: 40px;
+    border: 1px dotted black;
+}
+.col-50{
+    background-color: rgb(255, 217, 0);
+    width: 50%;
+    height: 40px;
+    border: 1px dotted black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
