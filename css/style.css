@@ -55,18 +55,46 @@ a{
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    height: 700px;
 }
 .row-main{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
 }
-.col-main-100{
+.col-main-80{
     background-color: rgb(255, 134, 227);
     border: 2px dashed black;
-    border-radius: 10px;
     height: 500px;
+    width: 80%;
+}
+.dashed-border{
+    border: 2px dashed black;
+}
+.col-main-60{
+    background-color: deepskyblue;
+    width: 60%;
+    height: 600px;
+}
+.col-main-40{
+    width: 40%;
+    height: 600px;
+    background-color: pink;
+}
+/* Background gray */
+.bg-gray{
+    background-color: lightgrey;
+}
+/* footer of main page */
+.container-main-bottom{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1000px;
+}
+.col-main-100{
     width: 100%;
+    height: 900px;
+    background-color: green;
 }
