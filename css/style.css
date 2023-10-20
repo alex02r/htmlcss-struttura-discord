@@ -10,17 +10,19 @@
 /* Backgound to header */
 header{
     background-color: lightskyblue;
-    height: 80px;
 }
-/* container */
+/* container header */
 .container{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    height: 80px;
 }
 .row{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .col-25{
     background-color: rgb(255, 217, 0);
@@ -34,6 +36,7 @@ header{
     height: 40px;
     border: 1px dashed black;
 }
+/* List style */
 .content{
     display: flex;
     justify-content: center;
@@ -47,10 +50,13 @@ ul{
 a{
     text-decoration: none;
 }
+
 /* MAIN */
+/* Background blue */
 .bg-blue{
     background-color: blue;
 }
+/* Container of three section */
 .container-main{
     display: flex;
     max-width: 1200px;
@@ -63,20 +69,24 @@ a{
     align-items: center;
     width: 100%;
 }
+/* column with width 80% */
 .col-main-80{
     background-color: rgb(255, 134, 227);
     border: 2px dashed black;
     height: 500px;
     width: 80%;
 }
+/* This class give bord dashed to div */
 .dashed-border{
     border: 2px dashed black;
 }
+/* column with width 60% */
 .col-main-60{
     background-color: deepskyblue;
     width: 60%;
     height: 600px;
 }
+/* column with width 40% */
 .col-main-40{
     width: 40%;
     height: 600px;
@@ -86,7 +96,7 @@ a{
 .bg-gray{
     background-color: lightgrey;
 }
-/* footer of main page */
+/* Last section of main page */
 .container-main-bottom{
     display: flex;
     max-width: 1200px;
@@ -98,3 +108,42 @@ a{
     height: 900px;
     background-color: green;
 }
+/* FOOTER */
+footer{
+    background-color: rgb(25, 25, 25);
+    height: 800px;
+}
+.container-foot{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.row-foot{
+    display: flex;
+    width: 100%;
+}
+.col-foot-left{
+    background-color: coral;
+    width: 30%;
+    height: 700px;
+}
+.col-foot-right{
+    width: 70%;
+    height: 700px;
+}
+.col-foot-25{
+    background-color: aquamarine;
+    width: calc(100% / 4);
+    height: 700px;
+}
+/*  Class for give white border */
+.white{
+    border-color: white;
+}
+/* Line to separate section */
+.border-bottom{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+/* Second section of footer */
