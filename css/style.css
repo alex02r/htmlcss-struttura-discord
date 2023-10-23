@@ -7,34 +7,32 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-/* Backgound to header */
-header{
-    background-color: lightskyblue;
-}
-/* container header */
+/* COMMON */
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    height: 80px;
 }
 .row{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.col-25{
-    background-color: rgb(255, 217, 0);
+.col-15{
     width: 25%;
-    height: 40px;
-    border: 1px dashed black;
 }
-.col-50{
-    background-color: rgb(255, 217, 0);
+.col-70{
     width: 50%;
-    height: 40px;
-    border: 1px dashed black;
+}
+.height-50{
+    height: 50px;
+}
+.bg-orange{
+    background-color: rgb(255, 217, 0);;
+}
+/* HEADER */
+/* Backgound to header */
+header{
+    background-color: lightskyblue;
+    padding: 20px;
 }
 /* List style */
 .content{
