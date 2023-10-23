@@ -55,6 +55,9 @@
 .col-25{
     width: 25%;
 }
+.col-50{
+    width: 50%;
+}
 /* Height */
 .height-50{
     height: 50px;
@@ -108,15 +111,9 @@ header{
 footer{
     background-color: rgb(25, 25, 25);
 }
-.container-foot{
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .padding-top-10{
     padding: 10px 0;
 }
-
 /* Line to separate section */
 .border-bottom{
     width: 100%;
@@ -124,12 +121,10 @@ footer{
     margin-bottom: 20px;
 }
 /* Second section of footer */
-.col-foot-50{
-    width: 50%;
-}
 .content-foot{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
 }
 .btn{
     padding: 5px;
