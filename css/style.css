@@ -11,101 +11,99 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 .row{
     width: 100%;
     display: flex;
 }
+.container-sm{
+    max-width: 991px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* This class give bord dashed to div */
+.dashed-border{
+    border: 2px dashed black;
+}
+/*  Class for give white border */
+.white{
+    border-color: white;
+}
+/* Column */
 .col-15{
     width: 25%;
 }
 .col-70{
     width: 50%;
 }
+.col-100{
+    width: 100%;
+}
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
+}
+.col-30{
+    width: 30%;
+}
+.col-70{
+    width: 70%;
+}
+.col-25{
+    width: 25%;
+}
+/* Height */
 .height-50{
     height: 50px;
 }
+.height-500{
+    height: 500px;
+}
+.height-600{
+    height: 600px;
+}
+.height-900{
+    height: 900px;
+}
+/* Set background */
 .bg-orange{
     background-color: rgb(255, 217, 0);;
 }
-/* HEADER */
-/* Backgound to header */
-header{
-    background-color: lightskyblue;
-    padding: 20px;
-}
-/* List style */
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-ul{
-    display: flex;
-    gap: 30px;
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
-
-/* MAIN */
-/* Background blue */
 .bg-blue{
     background-color: blue;
 }
-/* Container of three section */
-.container-main{
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 700px;
-}
-.row-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-/* column with width 80% */
-.col-main-80{
-    background-color: rgb(255, 134, 227);
-    border: 2px dashed black;
-    height: 500px;
-    width: 80%;
-}
-/* This class give bord dashed to div */
-.dashed-border{
-    border: 2px dashed black;
-}
-/* column with width 60% */
-.col-main-60{
-    background-color: deepskyblue;
-    width: 60%;
-    height: 600px;
-}
-/* column with width 40% */
-.col-main-40{
-    width: 40%;
-    height: 600px;
-    background-color: pink;
-}
-/* Background gray */
 .bg-gray{
     background-color: lightgrey;
 }
-/* Last section of main page */
-.container-main-bottom{
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 1000px;
+.bg-darkpink{
+    background-color: rgb(255, 134, 227);
 }
-.col-main-100{
-    width: 100%;
-    height: 900px;
+.bg-pink{
+    background-color: pink;
+}
+.bg-lightblue{
+    background-color: deepskyblue;
+}
+.bg-green{
     background-color: green;
 }
+.bg-orange{
+    background-color: coral;
+}
+.bg-aquamarine{
+    background-color: aquamarine;
+}
+
+/* HEADER */
+header{
+    background-color: lightskyblue;
+}
+
+/* MAIN */
+
 /* FOOTER */
 footer{
     background-color: rgb(25, 25, 25);
@@ -115,31 +113,10 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
 }
-.padding-20{
-    padding: 20px;
+.padding-top-10{
+    padding: 10px 0;
 }
-.row-foot{
-    display: flex;
-    width: 100%;
-}
-.col-foot-left{
-    background-color: coral;
-    width: 30%;
-    height: 700px;
-}
-.col-foot-right{
-    width: 70%;
-    height: 700px;
-}
-.col-foot-25{
-    background-color: aquamarine;
-    width: 25%;
-    height: 700px;
-}
-/*  Class for give white border */
-.white{
-    border-color: white;
-}
+
 /* Line to separate section */
 .border-bottom{
     width: 100%;
@@ -147,19 +124,12 @@ footer{
     margin-bottom: 20px;
 }
 /* Second section of footer */
-.bg-aquamarine{
-    background-color: aquamarine;
-    padding: 20px 0;
-}
 .col-foot-50{
     width: 50%;
 }
 .content-foot{
-    display: inline-block;
-}
-.f-end{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .btn{
     padding: 5px;
